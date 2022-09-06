@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(66, 30, 30);
+}
+#admin-box{
+background-color: green;
+color: rgb(61, 28, 28);
+width: 50%;
+text-align: center;
+margin:10% auto 0px;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 20px green;
+}
+#admin-box h1 {
+font-size: 40px;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+}
+form{
+margin: 50px 0px;
+}
+label, input{
+display: block;
+}
+label{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(34, 19, 19);
+    border: 1px solid black;
+    transition: ease-in-out 0.5s;
+}
+input::placeholder{
+    color: black;
+}
+#btn{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#btn:hover{
+    background-color: black;
+    color: brown;
+}
+.p-text{
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 10px;
+}
+.p-text a {
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
